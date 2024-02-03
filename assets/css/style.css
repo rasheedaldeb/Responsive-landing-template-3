@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5.1244vw;
+    background-color: rgba(128, 128, 128, 0.115);
+}
+nav h1 {
+    font-size: 2.125rem;
+    color: #054C73;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 61px;
+}
+ul a {
+    text-decoration: none;
+    font-weight: 600;
+    color:  #333333;
+}
+nav img {
+    display: none;
+}
+.hero {
+    height: calc(100vh - 130px);
+    background-image: url('../img/hero_img.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hero .hero-section {
+    width: 643px;
+    height: 446px;
+    background-color: #DFE9F4;
+    border-radius: 5px;
+    padding: 40px 3.6603vw;
+}
+.hero .hero-section h4 {
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+.hero .hero-section h1 {
+    font-size: 3.25rem;
+    color: #054C73;
+    max-width: 420px;
+    margin-bottom: 22px;
+}
+.hero .hero-section p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 39px;
+    color: #333333;
+    max-width: 533px;
+    margin-top: 22px;
+}
+.hero .hero-section button {
+    border: none;
+    border-radius: 50px;
+    background-color: #054C73;
+    font-weight: 700;
+    color: white;
+    margin-top: 60px ;
+    padding: 25px 72px;
+}
+.section-heading {
+    max-width: 469px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+}
+.section-heading h3 {
+    min-width: 292px;
+    font-size: 2rem;
+}
+.section-heading p {
+    max-width: 530px;
+    font-size: 20px;
+    margin-top: 12px;
+    color: #666;
+    line-height: 39px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48.5px;
+    flex-wrap: wrap;
+    padding: 50px  5.1244vw 0;
+}
+.about .container {
+    padding-top: 40px ;
+    padding-bottom: 40px ;
+    background-color: #F2F5FF;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+.about .container .info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.about .container .info .content {
+    min-width: 226px;
+    line-height: 30px;
+    color: #333;
+}
+.about .container .info .content h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.inspiration, .range, .describe, .input-form {
+    padding: 100px 0 73px;
+}
+.inspiration .container .card {
+    width: 364px;
+}
+.inspiration .container .card img ,
+.range .container .card img,
+.beauty .card img, 
+.describe .card img{
+    width: 100%;
+}
+.container  .middle {
+    height: 460px;
+    margin-bottom: 30.25px;
+} 
+.container  .middle img {
+    width: 100%;
+    height: 100%;
+}
+.beauty .card {
+    max-width: 601px;
+    margin-top: 29.75px;
+}
+.beauty .info {
+    max-width: 497px;
+}
+.beauty .info h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 47px;
+}
+.beauty .info p {
+    line-height: 39px;
+    color: #666;
+    font-size: 20px;
+}
+.beauty .info button {
+    padding: 25px 72px;
+    border: none;
+    border-radius: 50px;
+    background-color: #054C73;
+    color: white;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.range {
+    border-bottom: 2px solid #D7D6D6;
+    padding-bottom: 5.5rem;
+}
+.range .container, .describe .container  {
+    gap: 41px;
+}
+.describe .container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+} 
+.range .container .card h4,
+.describe .info h4{
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    padding-top: 2rem;
+}
+.describe .info h4 {
+    margin-top:33.67px ;
+}
+.describe  .info p {
+    font-size: 1.125rem;
+    color: #666;
+    text-align: center;
+    width: 314px;
+    line-height: 28px;
+    margin-top: 12px;
+}
+.input-form {
+    background-color:#F2F5FF;
+}
+.input-form form {
+    max-width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.input-form form .gmail {
+    width: 321px;
+    height: 76.745px;
+    border: 1px solid #054C73;
+    border-radius: 3px;
+}
+.input-form form .gmail:focus {
+    outline: none;
+}
+.input-form form .gmail::placeholder {
+    padding-left: 29px;
+}
+.input-form form .submit {
+    padding: 28.75px 45.81px;
+    border-radius: 3px;
+    border: 1px solid #011C42;
+    background-color: #054C73;
+    color: white;
+    font-weight: 700;
+}
+footer {
+    padding: 75px 0  100px;
+    background-color: #054C73;
+    color: white;
+}
+footer .container {
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container .left {
+    max-width: 410px;
+}
+footer .left h4 {
+    font-size: 24px;
+    line-height: 29.26px;
+}
+footer .left p {
+    line-height: 35px;
+    margin-top: 20px;
+}
+footer .right h4 {
+    text-align: end;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+footer .right .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+@media screen and (max-width:992px) {
+    html {
+        font-size: 10px;
+    }
+    nav ul {
+        display: none;
+    }
+    nav img {
+        display: block;
+    } 
+    .hero {
+        justify-content: center;
+    }
+    .hero .hero-section {
+        background: none;
+        text-align: center;
+    }
+    .hero .hero-section {
+        width: 360px;
+    }
+    .hero .hero-section h4 {
+        font-size: 16px;
+    }
+    .hero .hero-section p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about .container, footer .container {
+        justify-content: center;
+        gap: 40px;
+    }
+    .about .container .info .content h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .inspiration .section-heading p {
+        font-size: 14px;
+    }
+    .container  .middle {
+        margin: 0;
+    }
+    .beauty .card h3 {
+        font-size: 26px;
+    }
+    .describe .card .info p {
+        font-size: 15px;
+    }
+    .describe .info h4,
+    .describe  .info p {
+        text-align: start;
+    }
+    .input-form form .gmail {
+        height: 55.8px;
+    }
+    .input-form form {
+        gap: 18.19px;
+    }
+    .input-form form .submit {
+        padding: 17px 42px ;
+    }
+    footer .right h4 {
+        text-align: center;
+    }
+}
